@@ -1,9 +1,27 @@
 body {
-    background-color: gray;
+    background-image: url(img.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 h1 {
     padding: 20px;
     text-align: center;
     background-color: rgb(100, 99, 99);
+}
+
+label {
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: gold;
+}
+
+
+@media (max-width: 767px) {
+    body {
+        background-image: url(img2.jpg);
+    }
 }
